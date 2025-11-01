@@ -1,4 +1,5 @@
-import "../../app/globals.css";
+import { Open_Sans } from "next/font/google";
+import "../../styles/globals.css";
 
 export default function RootLayout({
   children,
