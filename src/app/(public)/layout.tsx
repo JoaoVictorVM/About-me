@@ -1,5 +1,6 @@
-import { Open_Sans } from "next/font/google";
 import "../../styles/globals.css";
+
+import { openSans } from "@/components/layout/fonts";
 
 export default function RootLayout({
   children,
@@ -7,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={"openSans.variable"}>
       <body
         className={`antialiased`}
       >
