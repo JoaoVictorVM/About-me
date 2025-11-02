@@ -1,0 +1,9 @@
+p {
+    color: var(--text);
+}
+
+h2 {
+    color: var(--text);
+    font-size: 1.250rem;
+    font-weight: bold;
+}
