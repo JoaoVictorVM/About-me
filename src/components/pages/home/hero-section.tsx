@@ -12,13 +12,15 @@ export default function HeroSection() {
                     <h1 className="text-xl font-bold text-[var(--text)]">Joao Victor</h1>
 
                     <div className="bg-[var(--post-span)] rounded-md p-3">
-                        <p>teste</p>
+                        <p>🎨 Código é arte quando feito com propósito.</p>
                     </div>
 
                     <div className="flex gap-5">
 
-                        <div className="bg-[var(--post-back)] w-96 h-48 p-3 rounded-md">
+                        <div className="bg-[var(--post-back)] flex flex-col gap-4 w-96 h-48 p-3 rounded-md">
                             <h2>Quem sou eu?</h2>
+                            <p>Ola, me chamo Joao Victor, estudo tecnologia a 4 anos e trabalho a pouco mais de 2 anos</p>
+                            <p>Desenvolver fullstack apaixonado e estusiasta do Frontend.</p>
                         </div>
 
                         <Image className="rounded-md"
@@ -30,13 +32,10 @@ export default function HeroSection() {
 
                     </div>
 
-                    <div>
-                        <h2>me chame</h2>
-                        <p>se voce</p>
-                        <div>
-                            <p>minha missao</p>
-                        </div>
-                        <p>compensa</p>
+                    <div className="flex flex-col gap-4">
+                        <h2>Me chame de Joao!</h2>
+                        <p>Gosto de pensar que o frontend é uma forma de contar histórias</p>
+                        <p>Transformando ideias em código e código em interfaces, sempre com aquele <br/> toque de detalhe que faz a diferença.</p>
                     </div>
 
                 </div>
@@ -46,12 +45,13 @@ export default function HeroSection() {
                 <div className="flex flex-col gap-5">
                     <div>
                         <h2>Minha Trajetoria</h2>
-                        <p>teste</p>
+                        <p> <span>→</span> 2021: Iniciei minha graduacao em Ciencias da Computacao</p>
+                        <p> <span>→</span> 2025: Iniciei meu emprego na area de desenvolvimento, atuando como QA</p>
                     </div>
 
                     <div className="flex flex-col gap-5">
                         <div className="bg-[var(--post-span)] rounded-md p-3">
-                            <p>teste</p>
+                            <p>Agora que você me conhece, só falta eu te conhecer! <br/> Dá uma olhada nos links abaixo e entre em contato comigo 👇</p>
                         </div>
 
                         <div className="bg-[var(--post-back)] w-96 h-48 p-3 rounded-md">

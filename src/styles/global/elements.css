@@ -7,3 +7,7 @@ h2 {
     font-size: 1.250rem;
     font-weight: bold;
 }
+
+span {
+    color: var(--post-span);
+}
