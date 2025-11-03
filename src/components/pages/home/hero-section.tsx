@@ -1,5 +1,6 @@
 import Image from "next/image"
 import imgProfile from "@/assets/images/Profile.png"
+import { Linkedin, Instagram, Github, Phone, Mail, ArrowUpRight, BriefcaseBusiness } from 'lucide-react';
 
 export default function HeroSection() {
     return (
@@ -9,17 +10,17 @@ export default function HeroSection() {
 
                 <div className="flex flex-col gap-5">
 
-                    <h1 className="text-xl font-bold text-[var(--text)]">Joao Victor</h1>
+                    <h1 className="text-4xl font-bold text-[var(--text)]">JOÃO VICTOR</h1>
 
-                    <div className="bg-[var(--post-span)] rounded-md p-3">
+                    <div className="rounded-md p-3 border-2 border-[var(--post-back)]">
                         <p>🎨 Código é arte quando feito com propósito.</p>
                     </div>
 
                     <div className="flex gap-5">
 
-                        <div className="bg-[var(--post-back)] flex flex-col gap-4 w-96 h-48 p-3 rounded-md">
+                        <div className="flex flex-col gap-4 w-96 h-48 p-3 rounded-md border-2 border-[var(--post-back)]">
                             <h2>Quem sou eu?</h2>
-                            <p>Ola, me chamo Joao Victor, estudo tecnologia a 4 anos e trabalho a pouco mais de 2 anos</p>
+                            <p>Ola, me chamo João Victor, estudo tecnologia a 4 anos e trabalho a pouco mais de 2 anos</p>
                             <p>Desenvolver fullstack apaixonado e estusiasta do Frontend.</p>
                         </div>
 
@@ -33,7 +34,7 @@ export default function HeroSection() {
                     </div>
 
                     <div className="flex flex-col gap-4">
-                        <h2>Me chame de Joao!</h2>
+                        <h2>Me chame de João!</h2>
                         <p>Gosto de pensar que o frontend é uma forma de contar histórias</p>
                         <p>Transformando ideias em código e código em interfaces, sempre com aquele <br/> toque de detalhe que faz a diferença.</p>
                     </div>
@@ -50,12 +51,50 @@ export default function HeroSection() {
                     </div>
 
                     <div className="flex flex-col gap-5">
-                        <div className="bg-[var(--post-span)] rounded-md p-3">
+                        <div className="rounded-md p-3 border-2 border-[var(--post-back)]">
                             <p>Agora que você me conhece, só falta eu te conhecer! <br/> Dá uma olhada nos links abaixo e entre em contato comigo 👇</p>
                         </div>
 
-                        <div className="bg-[var(--post-back)] w-96 h-48 p-3 rounded-md">
-                            <p>Links</p>
+                        <div className="">
+                            <ul>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <Linkedin size={20} className="stroke-2 text-[var(--text)]"/>
+                                        Linkedin
+                                        <ArrowUpRight size={14} className="stroke-2 text-[var(--text)]"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <Instagram size={20} className="stroke-2 text-[var(--text)]"/>
+                                        Instagram
+                                        <ArrowUpRight size={14} className="stroke-2 text-[var(--text)]"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <Github size={20} className="stroke-2 text-[var(--text)]"/>
+                                        GitHub
+                                        <ArrowUpRight size={14} className="stroke-2 text-[var(--text)]"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank">
+                                        <BriefcaseBusiness size={20} className="stroke-2 text-[var(--text)]"/>
+                                        Portfolio
+                                        <ArrowUpRight size={14} className="stroke-2 text-[var(--text)]"/>
+                                    </a>
+                                </li>
+
+                                <li className="flex gap-1">
+                                    <Mail size={20} className="stroke-2 text-[var(--text)]"/>
+                                    <p>jvmartinscv@gmail.com</p>
+                                </li>
+                                <li className="flex gap-1">
+                                    <Phone size={20} className="stroke-2 text-[var(--text)]"/>
+                                    <p>+55 (35) 99809-5841</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
