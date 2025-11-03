@@ -5,7 +5,7 @@ export default function HeroSection() {
     return (
         <section className={"heroSection"}>
 
-            <main className="bg-[var(--background)] w-screen h-screen overflow-hidden flex items-center justify-center gap-10">
+            <main className="bg-[var(--background)] w-screen h-screen overflow-hidden flex items-center justify-center gap-5">
 
                 <div className="flex flex-col gap-5">
 
@@ -41,11 +41,22 @@ export default function HeroSection() {
 
                 </div>
 
+                <div className="bg-[var(--post-back)] w-0.5 min-h-6/12"></div>
 
-
-                <div>
+                <div className="flex flex-col gap-5">
                     <div>
-                        <p>me encontre em:</p>
+                        <h2>Minha Trajetoria</h2>
+                        <p>teste</p>
+                    </div>
+
+                    <div className="flex flex-col gap-5">
+                        <div className="bg-[var(--post-span)] rounded-md p-3">
+                            <p>teste</p>
+                        </div>
+
+                        <div className="bg-[var(--post-back)] w-96 h-48 p-3 rounded-md">
+                            <p>Links</p>
+                        </div>
                     </div>
                 </div>
 
