@@ -1,7 +1,5 @@
 :root {
-    --background: #E6E5E3;
-    --text: #3F3F42;
-    --span-color: #1D293D;
-    --post-back: #1D293D;
-    --post-span: #1D293D;
+    --color-bg: #1A1F23;
+    --color-light: #FFFFFF;
+    --color-highlight: #B08035;
 }
