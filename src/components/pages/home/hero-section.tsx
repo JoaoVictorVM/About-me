@@ -1,6 +1,3 @@
-import Image from "next/image"
-import { Linkedin, Instagram, Github, Phone, Mail, ArrowUpRight, BriefcaseBusiness } from 'lucide-react';
-
 export default function HeroSection() {
     return (
         <section className="flex min-h-screen w-full justify-center bg-[var(--color-bg)] text-white">
