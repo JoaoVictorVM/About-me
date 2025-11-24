@@ -36,6 +36,22 @@ export default function HeroSection() {
 
                 </div>
 
+                <div className="flex flex-col gap-2">
+                    <h2>Links e Contato</h2>
+                    <div className="flex gap-15">
+                        <div className="flex flex-col">
+                            <a href="">🔗 Linkedin</a>
+                            <a href="">🔗 GitHub</a>
+                            <a href="">🔗 Instagram</a>
+                            <a href="">🔗 Portfolio</a>
+                        </div>
+                        <div>
+                            <p>📞: +55 35 99809-5841</p>
+                            <p>📧: jvmartinscv@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     )
