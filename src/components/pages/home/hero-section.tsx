@@ -9,7 +9,10 @@ export default function HeroSection() {
                 <div className="flex gap-5">
                     <div className="flex flex-col gap-2">
                         <h2>Quem sou eu?</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique adipisci magni non modi corporis sequi inventore autem, ipsa reiciendis cum culpa repellat eius fuga doloremque nam aperiam libero officia tenetur!</p>
+                        <div className="flex flex-col justify-between h-full">
+                            <p>Sou estudante de Ciência da Computação e apaixonado por transformar ideias em soluções reais. Atuo no <span>Front-end</span> com <span>Next.js</span> e <span>TailwindCSS</span>, sempre priorizando organização, escalabilidade e boa experiência do usuário. Tenho experiência como <span>QA</span> e vivência em <span>Back-end</span> com <span>Node.js</span>.</p>
+                            <p>🚀 <strong>Vamos construir algo incrível juntos?</strong><br />Fale comigo e conheça meu trabalho!</p>                            
+                        </div>
                     </div>
                     <img
                         src="/assets/images/Profile.png"
@@ -17,30 +20,34 @@ export default function HeroSection() {
                         className="w-3xs h-3xs"
                     />
                 </div>
-                <div className="bg-[var(--color-highlight)] h-[1px] mt-10 mb-10"></div>
+                <div className="bg-[var(--color-highlight)] h-[1px] mt-5 mb-5"></div>
 
                 <div className="flex flex-col gap-2">
                     <h2>Minha Trajetoria</h2>
-
                     <ul className="marker:text-[var(--color-highlight)]">
                         <li>
-                            <span>2021: </span> Iniciei minha graduacao em ciencias da computacao
+                            <strong>2021: </strong> Iniciei minha graduacao em ciencias da computacao
                         </li>
                         <li>
-                            <span>2025: </span> Comecei a atuar como QA
+                            <strong>2025: </strong> Comecei a atuar como QA
                         </li>
                     </ul>
-
+                    <p>Conquistei tudo isso, enquanto eu:</p>
+                    <ul className="marker:text-[var(--color-highlight)]">
+                        <li>
+                            Realizei o curso de HTML e CSS da Origamid
+                        </li>
+                    </ul>
                 </div>
 
                 <div className="flex flex-col gap-2">
-                    <h2>Links e Contato</h2>
+                    <h2>Fale comigo e conheça meu trabalho!</h2>
                     <div className="flex gap-15">
                         <div className="flex flex-col">
-                            <a href="">🔗 Linkedin</a>
-                            <a href="">🔗 GitHub</a>
-                            <a href="">🔗 Instagram</a>
-                            <a href="">🔗 Portfolio</a>
+                            <a href="">🔗 <strong>Linkedin</strong></a>
+                            <a href="">🔗 <strong>GitHub</strong></a>
+                            <a href="">🔗 <strong>Instagram</strong></a>
+                            <a href="">🔗 <strong>Portfolio</strong></a>
                         </div>
                         <div>
                             <p>📞: +55 35 99809-5841</p>
