@@ -6,7 +6,3 @@ h2 {
 li{
     list-style: inside;
 }
-
-span {
-    color: var(--color-highlight);
-}
