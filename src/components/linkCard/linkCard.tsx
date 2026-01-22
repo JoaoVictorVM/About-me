@@ -20,8 +20,9 @@ export function LinkCard({
         target={external ? "_blank" : undefined}
         rel={external ? "noopener noreferrer" : undefined}
         className={`
-            w-xl
-            h-40
+            w-full
+            max-w-md
+            min-h-[160px]
             rounded-xl
             p-6
             border

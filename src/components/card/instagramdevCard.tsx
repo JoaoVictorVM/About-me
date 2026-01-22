@@ -5,9 +5,9 @@ export function InstagramdevCard() {
     return (
         <LinkCard href="https://www.instagram.com/dev.joaov/" external variant="light">
             <div className="h-full w-full flex items-center">
-                <div className="w-[30%] flex justify-center">
+                <div className="w-[45%] sm:w-[30%] flex justify-center">
                     <div className="flex flex-col items-start">
-                        <Instagram className="w-16 h-16 text-[var(--color-dark)]" />
+                        <Instagram className="w-15 h-15 text-[var(--color-dark)]" />
                     </div>
                 </div>
 

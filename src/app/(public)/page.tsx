@@ -13,14 +13,14 @@ export default function Home() {
     return (
         <main className="min-h-screen bg-gradient-to-b from-[var(--color-dark)] to-[#383C46] flex justify-center">
 
-            <section className="px-4 py-10 flex flex-col items-center gap-6">
+            <section className="w-full max-w-lg px-4 py-10 flex flex-col items-center gap-4">
 
                 <Profile />
                 <PortfolioCard />
                 <LinkedinCard />
                 <GithubCard />
                 <InstagramCard />
-                <div className="flex gap-3">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full max-w-md">
                     <WhatsappCard />
                     <EmailCard />
                     <CurriculumCard />

@@ -11,3 +11,9 @@ p {
     font-size: 1.12rem;
     font-weight: 600;
 }
+
+@media (max-width: 640px) {
+  p {
+    font-size: 0.875rem;
+  }
+}

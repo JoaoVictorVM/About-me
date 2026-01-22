@@ -22,8 +22,8 @@ export function LinkCardSmall({
         target={external ? "_blank" : undefined}
         rel={external ? "noopener noreferrer" : undefined}
         className={`
-            w-46
-            h-40
+            w-full
+            min-h-[140px]
             rounded-xl
             p-6
             border
