@@ -1,18 +1,18 @@
 import { LinkCard } from "../linkCard/linkCard"
-import { Linkedin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
-export function LinkedinCard() {
+export function InstagramdevCard() {
     return (
         <LinkCard href="#" variant="light">
             <div className="h-full w-full flex items-center">
                 <div className="w-[30%] flex justify-center">
                     <div className="flex flex-col items-start">
-                        <Linkedin className="w-16 h-16 text-[var(--color-dark)]" />
+                        <Instagram className="w-16 h-16 text-[var(--color-dark)]" />
                     </div>
                 </div>
 
                 <div>
-                    <p>Perfil <span>profissional</span> no <span>LinkedIn</span>.<br/>Conecte-se comigo</p>
+                    <p><span>Código</span> e <span>desenvolvimento</span>.<br /> <span>Instagram</span> focado em <span>projetos</span></p>
                 </div>
             </div>
         </LinkCard>

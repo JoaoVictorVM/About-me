@@ -2,18 +2,22 @@ import { LinkCard } from "../linkCard/linkCard"
 
 export function AboutCard() {
     return (
-        <LinkCard href="#" variant="light">
-            <div className="flex items-center justify-center gap-2">
-                <span className="text-sm text-purple-400 font-semibold">
-                MÉTODO SPE
-                </span>
+        <LinkCard href="#" variant="gradient">
+            <div className="h-full w-full flex items-center">
+                <div className="w-[30%] flex justify-center">
+                    <div className="flex flex-col text-[var(--color-highlight)]">
+                        <h1 className="block text-4xl font-bold leading-none tracking-tight bg-gradient-to-r from-[var(--color-highlight)] to-[var(--color-light)] bg-clip-text text-transparent">
+                        SOBRE
+                        </h1>
+                        <h1 className="block text-4xl font-bold leading-none tracking-tight bg-gradient-to-r from-[var(--color-highlight)] to-[var(--color-light)] bg-clip-text text-transparent">
+                        MIM
+                        </h1>
+                    </div>
+                </div>
 
-                <p className="text-white text-lg font-medium">
-                O guia prático para{" "}
-                <span className="text-orange-400">aumentar</span>{" "}
-                suas vendas pelos{" "}
-                <span className="text-purple-400">stories</span>
-                </p>
+                <div>
+                    <p className="text-[var(--color-light)]">Um pouco da minha <span>história</span>,<br /> <span>interesses</span> e <span>objetivos</span></p>
+                </div>
             </div>
         </LinkCard>
     )

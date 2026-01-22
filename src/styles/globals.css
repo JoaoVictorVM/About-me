@@ -2,3 +2,12 @@
 
 @import "../styles/global/variables.css";
 @import "../styles/global/elements.css";
+
+span {
+    color: var(--color-highlight);
+}
+
+p {
+    font-size: 1.12rem;
+    font-weight: 600;
+}

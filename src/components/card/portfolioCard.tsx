@@ -6,17 +6,17 @@ export function PortfolioCard() {
             <div className="h-full w-full flex items-center">
                 <div className="w-[30%] flex justify-center">
                     <div className="flex flex-col text-[var(--color-highlight)]">
-                        <span className="block text-4xl font-bold leading-none tracking-tight bg-gradient-to-r from-[var(--color-highlight)] to-[var(--color-light)] bg-clip-text text-transparent">
+                        <h1 className="block text-4xl font-bold leading-none tracking-tight bg-gradient-to-r from-[var(--color-highlight)] to-[var(--color-light)] bg-clip-text text-transparent">
                         PORT
-                        </span>
-                        <span className="block text-4xl font-bold leading-none tracking-tight bg-gradient-to-r from-[var(--color-highlight)] to-[var(--color-light)] bg-clip-text text-transparent">
+                        </h1>
+                        <h1 className="block text-4xl font-bold leading-none tracking-tight bg-gradient-to-r from-[var(--color-highlight)] to-[var(--color-light)] bg-clip-text text-transparent">
                         FÓLIO
-                        </span>
+                        </h1>
                     </div>
                 </div>
 
                 <div>
-                    <p>testes</p>
+                    <p className="text-[var(--color-light)]">Explore meus <span>projetos</span> e<br />minha atuação <span>profissional</span></p>
                 </div>
             </div>
         </LinkCard>

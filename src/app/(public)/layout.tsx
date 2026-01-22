@@ -1,6 +1,11 @@
 import "../../styles/globals.css";
 
-import { openSans } from "@/components/layout/fonts";
+import { Montserrat } from "next/font/google";
+
+const font = Montserrat({
+  weight: ["400", "600", "700"],
+  subsets: ["latin"]
+});
 
 export default function RootLayout({
   children,
@@ -8,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={"openSans.variable"}>
+    <html lang="en" className={font.className}>
       <body
         className={`antialiased`}
       >

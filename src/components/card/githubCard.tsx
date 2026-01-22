@@ -1,18 +1,18 @@
 import { LinkCard } from "../linkCard/linkCard"
-import { Linkedin } from 'lucide-react';
+import { Github } from 'lucide-react';
 
-export function LinkedinCard() {
+export function GithubCard() {
     return (
         <LinkCard href="#" variant="light">
             <div className="h-full w-full flex items-center">
                 <div className="w-[30%] flex justify-center">
                     <div className="flex flex-col items-start">
-                        <Linkedin className="w-16 h-16 text-[var(--color-dark)]" />
+                        <Github className="w-16 h-16 text-[var(--color-dark)]" />
                     </div>
                 </div>
 
                 <div>
-                    <p>Perfil <span>profissional</span> no <span>LinkedIn</span>.<br/>Conecte-se comigo</p>
+                    <p>Veja meus repositórios no <span>GitHub</span><br />e explore meus <span>projetos</span></p>
                 </div>
             </div>
         </LinkCard>
