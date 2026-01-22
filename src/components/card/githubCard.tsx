@@ -3,7 +3,7 @@ import { Github } from 'lucide-react';
 
 export function GithubCard() {
     return (
-        <LinkCard href="#" variant="light">
+        <LinkCard href="https://github.com/JoaoVictorVM" external variant="light">
             <div className="h-full w-full flex items-center">
                 <div className="w-[30%] flex justify-center">
                     <div className="flex flex-col items-start">

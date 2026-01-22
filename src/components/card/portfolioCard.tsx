@@ -2,7 +2,7 @@ import { LinkCard } from "../linkCard/linkCard"
 
 export function PortfolioCard() {
     return (
-        <LinkCard href="#" variant="gradient">
+        <LinkCard href="https://joaovictormartins.vercel.app/" external variant="gradient">
             <div className="h-full w-full flex items-center">
                 <div className="w-[30%] flex justify-center">
                     <div className="flex flex-col text-[var(--color-highlight)]">

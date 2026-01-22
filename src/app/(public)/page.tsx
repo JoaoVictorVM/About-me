@@ -27,11 +27,6 @@ export default function Home() {
                 </div>
                 <InstagramdevCard />
                 <AboutCard />
-                
-
-                {/* portfolio,linkedin, github, insta, instaPortfolio
-                whatsapp, email, curriculo
-                sobre */}
 
             </section>
 

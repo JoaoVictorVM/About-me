@@ -5,7 +5,7 @@ export function Profile() {
             <img 
                 src="/assets/images/Profile.png" 
                 alt="Joao Victor Ventura Martins" 
-                className="w-37 h-40 rounded-xl border border-white/20"
+                className="w-37 h-40 rounded-xl border border-white/20 shadow-2xl"
             />
 
             <div className="flex flex-col gap-1">

@@ -9,13 +9,16 @@ const variants = {
 export function LinkCard({
     children,
     href,
-    variant = "dark"
+    variant = "dark",
+    external,
 }: LinkCardProps) {
     const Wrapper = href ? 'a' : 'div'
 
     return (
         <Wrapper
         href={href}
+        target={external ? "_blank" : undefined}
+        rel={external ? "noopener noreferrer" : undefined}
         className={`
             w-xl
             h-40

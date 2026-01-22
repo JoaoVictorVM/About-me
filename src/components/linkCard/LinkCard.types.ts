@@ -9,4 +9,6 @@ export interface LinkCardProps {
   children: ReactNode
   href?: string
   variant?: LinkCardVariant
+  download?: boolean
+  external?: boolean
 }
