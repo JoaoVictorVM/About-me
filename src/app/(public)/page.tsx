@@ -8,6 +8,12 @@ import { Profile } from "@/components/profile/profile";
 import { GithubCard } from "@/components/card/githubCard";
 import { InstagramCard } from "@/components/card/instagramCard";
 import { InstagramdevCard } from "@/components/card/instagramdevCard";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Links | João Victor Martins",
+    description: "Confira meus principais links, saiba mais sobre mim e entre em contato!",
+};
 
 export default function Home() {
     return (
